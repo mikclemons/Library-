@@ -1,6 +1,6 @@
 package com.company;
 
-public class Library {
+public class LibraryDemo {
 
     public static void main(String[] args) {
     }
