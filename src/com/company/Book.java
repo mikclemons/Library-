@@ -1,42 +1,53 @@
 package com.company;
 
+
 public class Book {
 
 
     private String title;
     private String author;
-    private int numberOfPages;
+    private int yearOfPublication;
     private String genre;
 
-    public void setTitle(String bookTitle){
+    public void setTitle(String bookTitle) {
         title = bookTitle;
     }
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     }
-    public void setAuthor(String bookAuthor){
+
+    public void setAuthor(String bookAuthor) {
         author = bookAuthor;
     }
-    public String getAuhor(){
+
+    public String getAuhor() {
         return author;
     }
-    public void setNumberOfPages(int bookNumberOfPages){
-        numberOfPages = bookNumberOfPages;
+
+    public void setYearOfPublication(int bookYearOfPublication) {
+        yearOfPublication = bookYearOfPublication;
     }
 
-    public int getNumberOfPages(){
-        return numberOfPages;
+    public int getYearOfPublication() {
+        return yearOfPublication;
     }
-    public void setGenre(String bookGenre){
+
+    public void setGenre(String bookGenre) {
         genre = bookGenre;
     }
-    public String getGenre(){
+
+    public String getGenre() {
         return genre;
     }
-    public String printBookDetails(){
-        return "The book you have chosen is " + getTitle() + " by " + getAuhor() + " and has " + getNumberOfPages() + " pages. " + "This book is a " + getGenre() + ".";
 
+    public void printBookDetails() {
+        System.out.println("The title is " + title +
+                ", the author is " + author +
+                ", the genre is " + genre +
+                ", and the year of publication is " + yearOfPublication + ".");
     }
 
-
 }
+
+
