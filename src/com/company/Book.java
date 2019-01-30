@@ -10,18 +10,22 @@ public class Book {
     private String genre;
 
     public void setTitle(String bookTitle) {
+
         title = bookTitle;
     }
 
     public String getTitle() {
+
         return title;
     }
 
     public void setAuthor(String bookAuthor) {
+
         author = bookAuthor;
     }
 
     public String getAuhor() {
+
         return author;
     }
 
@@ -30,14 +34,17 @@ public class Book {
     }
 
     public int getYearOfPublication() {
+
         return yearOfPublication;
     }
 
     public void setGenre(String bookGenre) {
+
         genre = bookGenre;
     }
 
     public String getGenre() {
+
         return genre;
     }
 

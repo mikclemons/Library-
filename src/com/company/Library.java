@@ -33,4 +33,12 @@ public class Library {
         }
     }
 
+    public boolean isFull(){
+        return numberOfBooksInLibrary() == books.length;
+    }
+
+    public boolean hasRoom(){
+        return !isFull();
+    }
+
 }
