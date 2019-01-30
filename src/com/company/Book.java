@@ -9,6 +9,13 @@ public class Book {
     private int yearOfPublication;
     private String genre;
 
+    public Book(String title, String author, int yearOfPublication, String genre){
+        this.title = title;
+        this.author = author;
+        this.yearOfPublication = yearOfPublication;
+        this.genre = genre; 
+
+    }
     public void setTitle(String bookTitle) {
 
         title = bookTitle;
@@ -52,7 +59,7 @@ public class Book {
         System.out.println("The title is " + title +
                 ", the author is " + author +
                 ", the genre is " + genre +
-                ", and the year of publication is " + yearOfPublication + ".");
+                ", and the year of publication is " + yearOfPublication + ".\n");
     }
 
 }
